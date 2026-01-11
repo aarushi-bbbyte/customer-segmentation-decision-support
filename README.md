@@ -55,7 +55,8 @@ The dataset includes transaction timestamps, purchase quantities, prices, and cu
 │                        # clustering logic, persona assignment, and simulations
 ├── requirements.txt     # Python dependencies required to run the application
 └── data/
-    └── README.md  
+    └── README.md
+```
 ---
 
 ## How the Application Works
