@@ -49,11 +49,11 @@ The dataset includes transaction timestamps, purchase quantities, prices, and cu
 ---
 
 ## Project Architecture
-├── app.py # Frontend (Streamlit UI)
-├── segmentation.py # Backend-style ML and business logic
-├── requirements.txt
+├── app.py               # Streamlit frontend for user interaction and visualization
+├── segmentation.py      # Backend-style module containing data processing,
+├── requirements.txt     # Python dependencies required to run the application
 └── data/
-└── README.md # Dataset download instructions
+    └── README.md   
 ---
 
 ## How the Application Works
@@ -77,13 +77,4 @@ The dataset includes transaction timestamps, purchase quantities, prices, and cu
 pip install -r requirements.txt
 streamlit run app.py
 ---
-## Use Cases
-1. Customer retention planning
-2. Marketing strategy evaluation
-3. Business analytics and segmentation
-4. Decision-support prototyping
----
-## Future Improvements
-Automated cluster re-training on new data
-More advanced time-based simulations
-Integration with dashboards or APIs
+
