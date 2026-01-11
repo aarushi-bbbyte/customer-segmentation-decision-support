@@ -79,5 +79,20 @@ The dataset includes transaction timestamps, purchase quantities, prices, and cu
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+```
+## Use Cases
+```text
+Customer retention planning
+Marketing strategy evaluation
+Business analytics and segmentation
+Decision-support prototyping
+```
+---
+## Future Improvements
+```text
+Automated cluster re-training on new data
+More advanced time-based simulations
+Integration with dashboards or APIs
+```
 ---
 
